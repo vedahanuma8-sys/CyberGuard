@@ -1,0 +1,27 @@
+# Python virtual environments & bytecode
+backend/venv/
+venv/
+.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node & Next.js build artifacts
+**/node_modules/
+node_modules/
+frontend/.next/
+frontend/out/
+.next/
+out/
+build/
+dist/
+
+# Environment files
+.env*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
